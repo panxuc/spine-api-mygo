@@ -1,0 +1,5 @@
+*.asset
+*.bundle
+
+*.py
+*.sh
