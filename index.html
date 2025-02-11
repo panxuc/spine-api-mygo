@@ -3,11 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>MyGO!!!!! Spine Demo</title>
+  <title>Spine API feat. MyGO!!!!! Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
-  <script src="https://unpkg.com/@esotericsoftware/spine-player@4.0.14/dist/iife/spine-player.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.0.14/dist/spine-player.css">
   <style>
     #github svg {
       transition: all 1s;
@@ -45,13 +43,7 @@
         fill="currentColor" class="octo-body"></path>
     </svg>
   </a>
-  <div id="player-container" style="width: 640px; height: 480px;"></div>
-  <script>
-    new spine.SpinePlayer("player-container", {
-      binaryUrl: "/model/s000_templete_MyGO/s000_templete_MyGO.skel",
-      atlasUrl: "/sdchara/00036_2023/u000_templete_MyGO.atlas",
-    });
-  </script>
+  <script src="autoload.js"></script> 
 </body>
 
 </html>
